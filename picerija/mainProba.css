@@ -1,0 +1,207 @@
+@font-face {
+	src: url(fonts/Satisfy-Regular.ttf);
+	font-family: nos;
+
+}
+
+
+body {
+	margin: 0px;
+	background: black;
+	color: white;
+	background-image: url(godfather.png);
+	background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    background-size: 75%;
+
+}
+
+.header {
+	width: 10%;
+	height: auto;
+	background-color: none;
+	padding-top: 20px;
+}
+
+.headerContent {
+	width: 1000px;
+	color: blue;
+	margin: 0 auto;
+	color: white;
+}
+
+h2 {
+color: black;
+font-size: 30px;
+background: grey;
+width: 80%;
+padding: 3px;
+text-align: center;
+font-family: nos;
+}
+
+p {
+	font-size: 20px;
+    margin: 10px 10px;
+    text-align: left;
+    width: 800px;
+	font-family: Courier;
+	text-align: justify;
+}
+
+.nav {
+	margin-top: 20px;
+	height: 40px;
+	width: 80%;
+	background: red;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+	list-style: none;
+}
+
+.nav ul li a {
+	text-decoration: none;
+    float: left;
+    display: block;
+    padding: 5px 10px;
+    color: black;
+    text-align: center;
+	font-family: nos;
+	font-size: 25px;
+	font-weight: bold;
+}
+.nav ul li a:hover{
+	color: yellow;
+
+}
+
+.item {
+	height: 300px;
+	margin: 5px;
+	width: 40%;
+}
+
+.parent {
+	border:none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+
+
+#footer{
+	border-top: 5px solid red;
+	width:800px;
+	height:100px;
+	margin:0;
+	background-color: rgba(100, 100, 100, 0.3);
+	text-align:center;
+}
+
+
+#footer i{
+	margin: 20px;
+	font-size: 60px;
+	background-color: orange;
+	color: #d66400;
+}
+
+#footer a{
+	background-color: none;
+	text-decoration: none;
+	color: red;
+}
+
+.social-links{
+	right: 30px;
+	top: 50%;
+}
+
+.social-links img{
+	width: 30px;
+	padding: 12px 12px;
+	margin: 5px 0px;
+}
+
+li{
+	font-family: Courier;
+}
+
+#gallery img{
+	transition: 1s;
+	width: 200px;
+}
+
+#gallery img: hover{
+	filter: grayscale(100%);
+	transform: scale(1.1);
+	
+}
+
+#forma{
+	width:80%;
+	background-color: transparent;
+	text-align:center;
+}
+
+#forma textarea{
+	font-family: Arial;
+	border: 2px solid gray;
+	width:42%;
+	padding: 10px;
+	background-color: inherit;
+	margin: 20px;
+	border-radius: 15px;
+	color: red;
+ 
+}
+
+#iip, #mib{
+	width:50%;
+	background-color: transparent;
+	margin: 20px auto;
+	text-align:center;
+}
+
+
+
+
+#ime, #prezime,#broj,#mail{
+	margin: 10px;
+	border: 2px solid gray;
+	font-family: Arial;
+	width: 36%;
+	height: 30px;
+	padding-left: 10px;
+	background-color: inherit;
+	color: red;
+	border-radius: 5px;
+}
+
+#imeEr, #prezimeEr,#brojEr,#mailEr{
+	background-color: inherit;
+	font-size: 20px;	
+	font-family: Arial;
+}
+
+#slanje{
+	border: 2px solid gray;
+	font-family: Arial;
+	height: 30px;
+	width: 100px;
+	background-color: inherit;
+	margin: 20px;
+	color: red;
+	border-radius: 5px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Godfather's Pizza</title>
+	<link rel="stylesheet" type="text/css" href="mainProba.css" />
+</head>
+<body>
+ 	<div class="header">
+		<div class="headerContent">
+			<a href="#">
+				<img src="Untitled.png" alt="logo" title="pizza logo" width="800px" height="200px" /></a>
+			<header>
+				<div class="nav">
+					<ul>
+			    		<li><a href="index.html">Home</a></li>
+						<li><a href="about_us.html">About us</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="contact.html">Contact us</a></li>
+					</ul>
+				</div>
+		
+			</header>
+	<main>
+
+		<section id="Contact-us">
+		<h2>Contact us</h2>
+		<ul>
+		<li>Godfather's Pizza, Inc.2808 North 108th Street</li>
+		<li>Naples,Italy 6816</li>
+		<li>tel:+38476-4345-345-3455</li>
+		<li><a href="mailto:thegodfatherpizza@gmail.com?Subject=Order%20" target="_top">thegodfatherpizza@gmail.com</a></li><br>
+
+
+<div id="map" style="width:400px;height:400px;background:blue"></div>
+
+
+<h2 class="naslov">Contact Us</h2>
+	
+	<form id="forma">
+		<div id="iip">
+			<input type="text" value="Name" id="ime"/><span id="imeEr"></span>
+			<input type="text" value="Last Name" id="prezime"/><span id="prezimeEr"></span>
+
+		</div>
+			
+		<div id="mib">
+			<input type="text" value="Mail" id="mail"/><span id="mailEr"></span>
+			<input type="text" value="Phone number" id="broj"/><span id="brojEr"></span>
+
+		</div>
+		<textarea rows="10" cols="50" id="poruka" placeholder="Your message"></textarea>
+		<div id="cleaner"></div>
+		<input type="button" id="slanje" value="Submit"/>
+	</form>
+
+	<div id="footer">
+	
+		<div class="social-links">
+			<a href="#"><img src="images/facebook.svg"></a>
+			<a href="#"><img src="images/instagram.svg"></a>
+			<a href="#"><img src="images/twitter.svg"></a>
+		
+		</div>
+
+		<a id="oAutoru" href="oAutoru.html">O autoru sajta</a>
+	</div>
+
+<script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(40.85, 14.24),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+		
+	</body>
+</html>
